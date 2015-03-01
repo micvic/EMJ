@@ -11,16 +11,10 @@
     height: 20px;
     margin: 0;
     opacity: 0.5;
-
 }
 #bruce {
     text-align: center;
-    background-image:url("pics/wordsbackground.png");
-    //background: red;
-    height: 750px;
-    background-position: center 5%;
-    background-repeat: no-repeat;
-    margin: 20px auto 0 auto; 
+    margin: 20px auto 15px auto; 
 } 
 #bruce #line1{
     font-size: 16px;
@@ -29,8 +23,8 @@
     color: #9AAFAF;
 }
 #bruce #line2 {
-    font-size:220px;
-    color:blue;
+    font-size:100px;
+    color: orange;
     //background: green;
     font-family:'card characters';
     font-family:'card characters';
@@ -60,16 +54,18 @@
 #intro #line6 {
     color: #710a05;
     text-align:center;
-    }
+}
+nav {
+    margin-top: 2.5em;
+}
 nav a {
     padding: 3em;
     background-size:5em;
     background-position:center center;
     background-repeat:no-repeat;
     text-decoration: none;
-    color:white;
+    color:#9AAFAF;
     font-family:'Lucida Console';
-
 }
 nav #home{
     background-image:url("pics/spade.png");
@@ -82,6 +78,16 @@ nav #Resume{
 }
 nav #Contact{
     background-image:url("pics/diamond.png");
+}
+#introImg{
+    height: 450px;
+    position: relative;
+}
+#introImg img {
+    max-width: 100%;
+    position: absolute;
+    top: -4em;
+    left: -8em;
 }
 #intro {
     float:left;
@@ -133,15 +139,11 @@ nav #Contact{
     //width: 960px;
     opacity:0.5;
 }
-#spacer1{
-    clear:both;
-    height:135px;
-    //background:blue;
-}
 
 #infoSec1{
     background:white;
     height:700px;
+    margin-top: 5em;
     text-align:center;
 }
 #infoSec1 #title{

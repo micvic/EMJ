@@ -1,11 +1,14 @@
 ﻿body {
-    background:url("pics/background.jpg") no-repeat center top fixed;
+    //background:url("pics/background.jpg") no-repeat center top fixed;
+    background:url("pics/bg.jpg") center top fixed;
+    //background:url("pics/J_face.png") center top;
     height: 100%;
-    background-size: 170%;
+    background-size: 100%;
     margin:0 auto;
     width: 100%;
     //border:solid;
 }
+
 #topbar{
     background: grey;
     height: 20px;
@@ -26,8 +29,7 @@
     font-size:100px;
     color: orange;
     //background: green;
-    font-family:'card characters';
-    font-family:'card characters';
+    font-family:'Card Characters';
     /*color: #9AAFAF;*/
     background-image:url("pics/spade.png");
     background-position:center center;
@@ -80,8 +82,28 @@ nav #Contact{
     background-image:url("pics/diamond.png");
 }
 #introImg{
+    //background:blue;
     height: 450px;
-    position: relative;
+    position:relative;
+}
+
+#dynamicWords{
+    max-width: 1px;
+    height:200px;
+    //background:blue;
+    margin: 100px auto;
+}
+
+#dynamicWords #img1{
+    position:relative;
+    left:-300px;
+     
+
+}
+#dynamicWords #img2{
+    margin: 45px 0 0 0;
+    position: relative; 
+    left: -240px;
 }
 #introImg img {
     max-width: 100%;
@@ -140,11 +162,17 @@ nav #Contact{
     opacity:0.5;
 }
 
+#spacer{
+    //background:red;
+    max-width:100%;
+    height:60px;
+}
 #infoSec1{
     background:white;
     height:700px;
-    margin-top: 5em;
+    margin: 0 auto;
     text-align:center;
+    max-width:95%;
 }
 #infoSec1 #title{
     //background:red;

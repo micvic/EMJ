@@ -30,7 +30,7 @@
 }
 #bruce #line2 {
     font-size:220px;
-    color:cyan;
+    color:blue;
     //background: green;
     font-family:'card characters';
     font-family:'card characters';
@@ -61,30 +61,15 @@
     color: #710a05;
     text-align:center;
     }
-#bruce #navbar {
-    text-align:center;
-    list-style-type: none;
-    margin:40px 0 0 0;
-    padding: 0;
-      
-}
-#bruce #navbar li {
-    //background-image:url("pics/2000px-French_suits.png");
-    //background-size:250px;
-    display: inline;
-    font-size:20px;
-    font-family:'Lucida Console';
-    //background: #9AAFAF;
-    margin:0px 0px;
-    padding: 70px 40px;
-    color: white;
-}
 nav a {
     padding: 3em;
     background-size:5em;
     background-position:center center;
     background-repeat:no-repeat;
-    
+    text-decoration: none;
+    color:white;
+    font-family:'Lucida Console';
+
 }
 nav #home{
     background-image:url("pics/spade.png");

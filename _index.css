@@ -78,29 +78,24 @@
     padding: 70px 40px;
     color: white;
 }
-#bruce #navbar #home{
+nav a {
+    padding: 3em;
+    background-size:5em;
+    background-position:center center;
+    background-repeat:no-repeat;
+    
+}
+nav #home{
     background-image:url("pics/spade.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
 }
-#bruce #navbar #About{
+nav #About{
     background-image:url("pics/heart.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
 }
-#bruce #navbar #Resume{
+nav #Resume{
     background-image:url("pics/club.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
 }
-#bruce #navbar #Contact{
+nav #Contact{
     background-image:url("pics/diamond.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
 }
 #intro {
     float:left;

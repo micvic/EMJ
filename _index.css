@@ -14,51 +14,17 @@
     width:100%;
     position:fixed;
     top:0;
-    //background:url("pics/doubleFaceBG.png") no-repeat center top fixed;
-    //background:url("pics/diamond_face.png") no-repeat fixed;
-    //background-size:cover;
-    //background: red;
     height:70%;
     z-index:-1;
 }
 
-#faceSpace #lFace1{
+#faceSpace .lface{
     position:absolute;
     left:0;
     opacity:0.0;
-}
-#faceSpace #lFace2{
-    position:absolute;
-    left:0;
-    opacity:0.0;
-}
-#faceSpace #lFace3{
-    position:absolute;
-    left:0;
-    opacity:0.0;
-}
-#faceSpace #lFace4{
-    position:absolute;
-    left:0;
-    opacity:1.0;
 }
 
-#faceSpace #rFace1{
-    position:absolute;
-    right:0;
-    opacity:1.0;
-}
-#faceSpace #rFace2{
-    position:absolute;
-    right:0;
-    opacity:0.0;
-}
-#faceSpace #rFace3{
-    position:absolute;
-    right:0;
-    opacity:0.0;
-}
-#faceSpace #rFace4{
+#faceSpace .rface{
     position:absolute;
     right:0;
     opacity:0.0;

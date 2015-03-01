@@ -1,9 +1,9 @@
 ﻿var lFace = [1, 2, 3, 4];
 var rFace = [3, 4, 1, 2];
-var fi = 0;
-
+var fi = -1;
 
 $(document).ready(function () {
+    changeFaces();
     var lVal = 1;
     var rVal = 1;
 
@@ -22,26 +22,16 @@ $(document).ready(function () {
         }
     });
 
-    $("#dynamicWords").mousedown(function () {
-        changeFaces();
-    });
 });
 
 
 function changeFaces() {
     fi++;
-    if (fi > 3) { fi -= 4;}
-    $("#lFace1").css({ "opacity": "0.0" });
-    $("#lFace2").css({ "opacity": "0.0" });
-    $("#lFace3").css({ "opacity": "0.0" });
-    $("#lFace4").css({ "opacity": "0.0" });
-    $("#rFace1").css({ "opacity": "0.0" });
-    $("#rFace2").css({ "opacity": "0.0" });
-    $("#rFace3").css({ "opacity": "0.0" });
-    $("#rFace4").css({ "opacity": "0.0" });
-
-    //lVal = Math.floor(Math.random() * 3) + 1;
-    rVal = Math.floor(Math.random() * 3) + 1;
+    if (fi > 3) { fi -= 4; }
+    for (i = 1; i <= 4; i++) {
+        $("#lFace"+i).css({ "opacity": "0.0" });
+        $("#rFace"+i).css({ "opacity": "0.0" });
+    }
     lVal = lFace[fi];
     rVal = rFace[fi];
 

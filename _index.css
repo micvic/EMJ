@@ -30,10 +30,11 @@
 }
 #bruce #line2 {
     font-size:220px;
+    color:cyan;
     //background: green;
     font-family:'card characters';
     font-family:'card characters';
-    color: #9AAFAF;
+    /*color: #9AAFAF;*/
     background-image:url("pics/spade.png");
     background-position:center center;
     background-repeat:no-repeat;

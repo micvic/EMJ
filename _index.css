@@ -1,12 +1,9 @@
 ﻿body {
-    background-image:url("pics/background.jpg");
-    background-position:center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-width: 1500px;
-    height: 3000px;
-    background-size:2000px;
+    background:url("pics/background.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
     margin:0 auto;
+    width: 100%;
     //border:solid;
 }
 #topbar{
@@ -173,7 +170,6 @@
 }
 #infoSec1 #mid{
     height:620px;
-    width:1500px;
     margin:0 auto;
     background: blue;
 }

@@ -47,33 +47,17 @@
     font-family: "Tahoma";
     letter-spacing: 20px;
     color: #9AAFAF;
+    text-shadow: 1px 1px 10px #000;
 }
 #bruce #line2 {
     font-size:100px;
-    //background: green;
     font-family:'Card Characters';
+    text-shadow: 1px 1px 10px #333;
     color: #9AAFAF;
     background-image:url("pics/spade.png");
     background-position:center center;
     background-repeat:no-repeat;
     background-size:100px;
-    //
-    background-image:url("pics/heart.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
-    //
-    background-image:url("pics/club.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
-    //
-    background-image:url("pics/diamond.png");
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:100px;
-}
-}
 }
 #intro #line6 {
     color: #710a05;

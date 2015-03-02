@@ -50,10 +50,9 @@
 }
 #bruce #line2 {
     font-size:100px;
-    color: orange;
     //background: green;
     font-family:'Card Characters';
-    /*color: #9AAFAF;*/
+    color: #9AAFAF;
     background-image:url("pics/spade.png");
     background-position:center center;
     background-repeat:no-repeat;

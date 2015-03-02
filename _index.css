@@ -75,6 +75,9 @@ nav a {
     color:#9AAFAF;
     font-family:'Lucida Console';
 }
+nav a:hover, a:focus, a:active{
+    color: white;
+}
 nav #home{
     background-image:url("pics/spade.png");
 }
